@@ -88,3 +88,95 @@
   font-weight: bold;
   font-size: 16px;
 }
+/* info start here */
+.info-title{
+  width: 1320px;
+  height: 480px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+
+      background: linear-gradient(
+        to bottom,
+        #ffe7e7 0%,
+        #ffffff 100%
+    );
+}
+.info-title h3{
+  font-size: 32px;
+
+}
+.info-title span{
+  color: #FF0000;
+}
+.info-title button{
+  padding: 18px 22px;
+  background-color: #FF0000;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+
+/* coming info start */
+.Coming-info{
+  margin-top: 150px;
+  display: flex;
+  height: 464px;
+  width: 1320px;
+  margin: 0 auto;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  
+}
+.c-div-1{
+  margin-right: 40px;
+}
+.c-div-1 h5{
+  font-weight: 600;
+  font-size: 24px;
+  color: #FF0000;
+  margin: 10px 0;
+  
+}
+.c-div-1 h3{
+ font-size: 40px;
+ margin: 5px 0;
+}
+.c-div-1 p{
+  font-weight: 400;
+  font-size: 20px;
+  color: #070211;
+  
+}
+.basc-div-3{
+  margin-top: 40px;
+}
+.basc-div-3 h3{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 5px 0;
+}
+.basc-div-3{
+  color: #070211;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.basik-div-2 img{
+  border: 10px solid #FF0000 ;
+  border-radius: 100% ;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+  margin-right: 100px;
+}
